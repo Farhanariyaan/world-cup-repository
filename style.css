@@ -1,0 +1,71 @@
+/* header style */
+.container{
+    background: black;
+    height: 546px;
+    width: 1257px;
+    left: 140px;
+    color: azure;
+}
+h1{
+    font-family: pocifico , cursive;
+    font-size: 40px;
+    padding-left: 5%;
+}
+p{
+    padding-left: 5%;
+    width: 50%;
+}
+.image{
+    width: 20%;
+    display: flex;
+    margin-left: 920px;
+}
+.button{
+    text-decoration: none;    
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+.details{
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 140px;
+    top: 826px;
+    background: black;
+}
+/* players style */
+.form{
+    width: 190px;
+    height: 105px;
+    background: #161616;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+    top: 826px;
+}
+.player img{
+    width: 230px;
+    height: 232px;
+    left: 1148px;
+    top: 826px;
+}
+h2{
+    font-size: small;
+    font-style: italic;
+}
+/*--------Last topic style--------*/
+h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    font-family: sans-serif;
+    text-align: center;
+}
+#bar{
+    background-color: rgb(124, 121, 121);
+}
