@@ -1,10 +1,9 @@
 /* header style */
-.container{
-    background: black;
-    height: 546px;
-    width: 1257px;
-    left: 140px;
-    color: azure;
+.banner{
+    background-color: #161616;
+    color: aliceblue;
+    display: flex;
+
 }
 h1{
     font-family: pocifico , cursive;
@@ -15,12 +14,16 @@ p{
     padding-left: 5%;
     width: 50%;
 }
+.word{
+    width: 50%;
+
+}
 .image{
-    width: 581px;
-    height: 310px;
-    display: flex;
-    margin-left: 920px;
-    left: 600px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.image img{
+     transform: translateY(33px);
 }
 .button{
     text-decoration: none;

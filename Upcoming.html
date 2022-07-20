@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <style>
     /* header style */
-         .container{
-    background: black;
-    height: 546px;
-    width: 1257px;
-    left: 140px;
-    color: azure;
-    }
+    .banner{
+    background-color: #161616;
+    color: aliceblue;
+    display: flex;
+
+}
     h1{
         font-family: pocifico , cursive;
         font-size: 40px;
@@ -24,13 +23,16 @@
         padding-left: 5%;
         width: 50%;
     }
+    .word{
+    width: 50%;
+}
     .image{
-        width: 581px;
-        height: 300px;
-        display: flex;
-        margin-left: 920px;
-        left: 600px;
+        width: 70%;
+        margin-bottom: 30px;
     }
+    .image img{
+     transform: translateY(33px);
+}
     .button{
         text-decoration: none;
         padding: 10px 20px;
@@ -106,22 +108,20 @@
      <!-----------------------
              Header
     ------------------------>
-<header>
-    <nav>
-        <section class="container">
+
+        <section class="banner">
             <div calss="word">
                 <h1>The Gretest show on the earth</h1>
                 <p>World Cup, formally FIFA World Cup, in football (soccer), quadrennial tournament of men's national teams that determines the sport's world champion. It is likely the most popular sporting event in the world, drawing billions of television viewers every tournament</p>
                 <div class="button">
                     <a class="button" target="_blank" href="">Watch live</a>
                 </div>
+            </div>
                 <div class="image">
                      <img src="assets/Banner Image.png" alt="">
                 </div>
-            </div>
+            
         </section>
-    </nav>
-</header>
 <!-------------------------------
            Top-header
 --------------------------------->
